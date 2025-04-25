@@ -1,0 +1,32 @@
+{
+    "name": "@aoikarasu/distme",
+    "version": "0.1.0",
+    "description": "Distribution utilities for frontend projects",
+    "main": "lib/index.js",
+    "bin": {
+        "distme": "./bin/distme.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "build",
+        "distribution",
+        "frontend",
+        "css",
+        "js",
+        "concatenation"
+    ],
+    "author": "Aoi Karasu <aoikarasu@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "clean-css": "^5.3.2",
+        "concat": "^1.0.3",
+        "mkdirp": "^3.0.1",
+        "uglify-js": "^3.17.4",
+        "yargs": "^17.7.2"
+    },
+    "peerDependencies": {
+        "rimraf": "^5.0.5"
+    }
+}

@@ -1,0 +1,9 @@
+distme/
+├── bin/
+│   └── distme.js      # CLI entry point
+├── lib/
+│   ├── concat-css.js  # CSS concatenation script
+│   ├── concat-js.js   # JS concatenation script
+│   └── postdist.js    # Post-distribution script
+├── package.json       # Package configuration
+└── README.md          # Documentation
